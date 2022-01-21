@@ -1,2 +1,3 @@
 //TODO:add tailwind to the project
-//TODO:
+//TODO:responsive navbar addition using styled-components, tailwind and react
+//TODO:Landing Page
