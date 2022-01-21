@@ -5,6 +5,7 @@ import tw from "twin.macro";
 import carMc from "../../../assets/images/mclaren-orange-big.png";
 import blobBg from "../../../assets/images/blob.svg";
 import {SCREENS} from "../../components/responsive";
+import {Button} from "../../components/buttons";
 
 const TopSectionContainer = styled.div`
   min-height: 400px;
@@ -136,6 +137,13 @@ const StandAloneCar = styled.div`
   }
 `;
 
+const ButtonContainer = styled.div`
+    ${tw`
+        flex
+        mt-4
+    `};
+`;
+
 export function TopSection(){
     return <TopSectionContainer>
         <LeftContainer>
@@ -144,6 +152,10 @@ export function TopSection(){
                 Choose the best cars from our local stores or get the best remote cars at your doorstep
                 at the right price and the best quality.
             </Description>
+            <ButtonContainer>
+                <Button text="Book your ride!" />
+                <Button theme="filled" text="Sell your car" />
+            </ButtonContainer>
         </LeftContainer>
         <RightContainer>
             <BlobContainer>
