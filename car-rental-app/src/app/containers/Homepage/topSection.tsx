@@ -76,7 +76,7 @@ const BlobContainer = styled.div`
   right: -2em;
   top: -9em;
   z-index: -1;
-  transform: rotate(-30deg);
+  transform: rotate(-50deg);
   
   img{
     width: 100%;
@@ -96,14 +96,14 @@ const BlobContainer = styled.div`
     max-height: 30em;
     right: -2em;
     top: -15em;
-    transform: rotate(-30deg);
+    transform: rotate(-50deg);
   }
   @media (min-width: ${SCREENS.xl}){
     width: 70em;
     max-height: 30em;
     right: -9em;
     top: -25em;
-    transform: rotate(-18deg);
+    transform: rotate(-28deg);
   }
 `;
 
@@ -140,6 +140,7 @@ const StandAloneCar = styled.div`
 const ButtonContainer = styled.div`
     ${tw`
         flex
+        flex-wrap      
         mt-4
     `};
 `;
