@@ -31,6 +31,7 @@ const LeftContainer = styled.div`
 `;
 
 const RightContainer = styled.div`
+  user-select: none;
     ${tw`
         w-1/2
         flex
@@ -138,6 +139,7 @@ const StandAloneCar = styled.div`
 `;
 
 const ButtonContainer = styled.div`
+  user-select: none;
     ${tw`
         flex
         flex-wrap      
